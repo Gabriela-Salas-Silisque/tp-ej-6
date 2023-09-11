@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+        <header>
+            <h1 class="title">Gabriela Salas Silisque</h1>
+                <p>Hola soy estudiante de la carrera de Analista de Sistemas. </p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Dato personal</a></li>    
+                <li><a href="#seccion2">Pasatiempos</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Secciones -->
+    
+        
+        <section class="mi-seccion" id="seccion1">
+            <article>
+                <h2>Dato personal</h2>
+            <ul>
+                <li>Nombre completo: <b>Gabriela Alejandea Salas Silisque</b></li>
+                <li>Fecha de Nacimiento: <b>24/07/1996</b></li>
+                <li>Lugar de Nacimiento: <b>Jujuy-Humahuaca</b></li>
+            </ul>
+            </article>
+        </section>
+        
+        <section class="mi-seccion" id="seccion2">
+            <article>
+                <h2>Pasatiempos</h2> 
+                <figure>
+                    <figcaption><li>Patinar</li></figcaption>
+                    <img src="imagenes\WhatsApp Image 2023-09-07 at 23.01.13.jpeg" alt="Descripción de la imagen" width="300" height="">
+                    
+                    <figcaption><li>Gimnasio</li></figcaption>
+                    <img src="imagenes\WhatsApp Image 2023-09-07 at 22.56.15.jpeg" alt="Descripción de la imagen" width="300" height="">
+                    <img src="imagenes\WhatsApp Image 2023-09-07 at 22.56.20.jpeg" alt="Descripción de la imagen" width="300" height="">
+                    
+                    <figcaption><li>Trekking</li></figcaption>
+                    <img src="imagenes\WhatsApp Image 2023-09-07 at 22.57.14.jpeg" alt="Descripción de la imagen" width="300" height="">
+                    <img src="imagenes\WhatsApp Image 2023-09-07 at 22.57.34.jpeg" alt="Descripción de la imagen" width="300" height="">
+
+                </figure>
+            </article>
+        </section> 
+
+
+
+
+        <h2>Formulario de contacto</h2>
+        <form action="">
+            Nombre: 
+            <input type="text" id="nombre" name="nombre" required> <br><br>
+    
+            <form action="procesar_formulario.php" method="post">
+        
+            <label for="correo">Correo Electrónico:</label>
+            
+            <input type="email" id="correo" name="correo" required>
+            
+            <input type="submit" value="Enviar"> <br><br>
+
+            <label for="mensaje">Mensaje:</label>
+            
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <input type="submit" value="Enviar">
+            </form> 
+        </form>
+
+
+        <footer>
+            <h2>Contacto</h2>
+            <p>Síguenos en redes sociales:</p>
+            
+                <div class="box-container">
+
+                    <div class="box">
+                        <i class="fab fa-facebook"></i>
+                        <h3>Facebook</h3>
+                        <p> Gabriela Silisque</p>
+                    </div>
+        
+                    <div class="box">
+                        <i class="fab fa-instagram"></i>
+                        <h3>Instagram</h3>
+                        <p>gaby_silisque</p>
+                    </div>
+        
+                    <div class="box">
+                        <i class="fab fa-whatsapp"></i>
+                        <h3>WhatsApp</h3>
+                        <p>44438975857</p>
+                    </div>
+        
+                </div>
+        
+        </footer> 
+
+
+</body>
+</html>

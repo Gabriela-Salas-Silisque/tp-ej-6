@@ -1,0 +1,176 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo para toda la página */
+}
+
+/* Encabezado */
+header {
+    background-color: #7d3cd3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333; /* Color de fondo para la barra de navegación */
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Transición de color de fondo al pasar el cursor */
+}
+
+nav a:hover {
+    background: #4b0a79;/* Color de fondo al pasar el cursor */
+}
+
+/* Secciones */
+.mi-seccion {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+article {
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #7d3cd3; /* Color del encabezado de sección */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Imágenes en las secciones */
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Formulario de contacto */
+form {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #7d3cd3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Iconos de redes sociales */
+.fa {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-wrap: centers;
+
+}
+.box-container .box{
+    height: 160px;
+    width: 210px;
+    background: #171717;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px rgba(0,0,0, .3);
+    margin: 8px;
+}
+
+.box-container .box i {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #7d3cd3;
+    font-size: 25px;
+    margin: 10px 0;
+}
