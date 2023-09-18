@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5; /* Color de fondo para toda la página */
+    background-color: #c4a6e4; /* Color de fondo para toda la página */
 }
 
 /* Encabezado */
@@ -12,7 +12,7 @@ header {
     background-color: #7d3cd3;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 .title {
@@ -161,6 +161,14 @@ footer a {
     border-radius: 30px;
     box-shadow: 0 5px 5px rgba(0,0,0, .3);
     margin: 8px;
+}
+
+.card{
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
 }
 
 .box-container .box i {
